@@ -1,0 +1,23 @@
+Apagar VM (como root)
+shutdown now
+
+Pasos para instalar ishare:
+Loguearse por SSH (el ingeniero usa MobaXterm)
+
+Pegar comando:
+wget -O /usr/sbin/ishare2 https://raw.githubusercontent.com/pnetlabrepo/ishare2/main/ishare2 > /dev/null 2>&1 && chmod +x /usr/sbin/ishare2 && ishare2
+
+correr comando
+ishare2 gui start
+
+en la primera opcion, buscar: i86bi_linux_l2-adventerprisek9-ms.SSA.high_iron_20190423.bin
+
+Y descargar, se instalará automaticamente en la maquina virtual.
+
+Comandos para VPCS
+ip <numeros>/24
+save
+show
+
+Wireshark:
+Asegurarse a la hora de instalar de seleccionar el sshdump
