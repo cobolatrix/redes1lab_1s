@@ -97,7 +97,7 @@ Para ver el estado del modo troncal en el dispositivo usamos el comando "show in
     switchport trunk native vlan 99
 
     ! restringiendo las vlan que se pasarán en modo troncal
-    switchport trunk allowed vlan 10, 20, 99, 1002-1005
+    switchport trunk allowed vlan 10,20,99,1002-1005
 
     ! configurando el modo acceso
     interface ethernet 0/1
