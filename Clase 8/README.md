@@ -75,6 +75,8 @@ En las redes definidas entre routers asignaremos las ips de la siguiente forma.
     ip route 10.0.0.0 255.255.255.0 11.0.0.1
     !hacia 11.0.0.0
     ip route 11.0.0.0 255.255.255.252 11.0.0.1
+
+    !estas dos posiblemente no van, pero tampoco afectan
     !hacia 192.167.0.0
     ip route 192.167.0.0 255.255.255.252 192.167.0.2
     !hacia 192.168.0.0
@@ -106,5 +108,5 @@ En las redes definidas entre routers asignaremos las ips de la siguiente forma.
 
     show ip route
     show running-config | section ip route
-    
+
 
