@@ -26,7 +26,7 @@ Tendremos 2 routers, llamados R1 y R2
     standby 21 priority 109
 
     !configuramos el preempt, que sirve para que recupere la prioridad una se recupere la comunicación
-    standby 88 preempt
+    standby 21 preempt
 
     !guardamos
     do write
