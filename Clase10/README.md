@@ -33,7 +33,7 @@ Con esto ya estará creada la subinterfaz, luego tendremos que asignarle una IP 
 
 ### SW
 
-Este se configura como siempre, creandole las VLANS y asignando los tipos de puertos.
+Este se configura como siempre, creandole las VLANS y asignando los tipos de puertos, tanto los que van en modo acceso como los que van en modo troncal.
 
 ## Usando un switch de capa 3
 
