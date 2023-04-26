@@ -29,3 +29,5 @@ La sede Central quedaría así:
 De nuevo se tuvo que agregar un switch, esta vez entre C3 y C1 y C2, las ips definidas anteriormente siguen siendo las mismas y la ip para la interfaz e0/1 de C3 quedaría definida como 192.177.XX.4, esta red también con máscara /24.
 
 Se deben establecer las rutas estáticas necesarias para que exista la comunicación.
+
+<font size="5">**Atención: Se cambió el tipo de enlaces entre SW y los routers C1 y C2, ahora son de tipo Ethernet.**</font>
